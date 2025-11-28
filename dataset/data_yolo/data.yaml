@@ -2,8 +2,25 @@ train: ../train/images
 val: ../valid/images
 test: ../test/images
 
-nc: 27
-names: ['di cham', 'cam queo phai', 'cam queo trai', 'cam do xe', 'cam dung cam do', 'cam', 'huong di vong sang phai', 'toc do toi da 60km/h', 'toc do toi da 50km/h', 'nguoi qua duong', 'xe buyt', 'cam oto', 'giao nhau voi duong uu tien', 'tre em qua duong', 'cam xe tai', 'cam xe tai lon']
+nc: 16
+names: [
+  'di cham', 
+  'cam queo phai', 
+  'cam queo trai', 
+  'cam do xe', 
+  'cam dung cam do', 
+  'cam', 
+  'huong di vong sang phai', 
+  'toc do toi da 60km/h', 
+  'toc do toi da 50km/h', 
+  'nguoi qua duong', 
+  'xe buyt', 
+  'cam oto', 
+  'giao nhau voi duong uu tien', 
+  'tre em qua duong', 
+  'cam xe tai', 
+  'cam xe tai lon'
+  ]
 
 roboflow:
   workspace: xulyanh-b7gm3
